@@ -3,30 +3,33 @@
 <head>
         <meta charset="UTF-8">
         <title>Klimenko resume</title>
+        <link href="styles.css"
+        rel="stylesheet"/>
 </head>
 <body>
-        <font face="Arial">             
-<table cellspacing="15">
-<tr>
-<td>
-        <img src="https://i.postimg.cc/Hxv6rsGw/photo-2022-11-04-01-51-32.jpg" width="200">
-</td>
-<td>
-        <h1>Илья Клименко</h1>
-        <p><em><strong> Системный аналитик </strong></em></p>
-        <br>
+<div class="container">
+     <div class="info">        
+        <img src="ava.jpg" class="avatar"/>
 
-        <p>4 декабря, 1993 года</p> 
+        <div class="info-text">
+        <h1>Илья Клименко</h1>
+        <h3><strong> Системный аналитик </strong></h3>
+               <p>4 декабря, 1993 года</p> 
         <p>Рустави, Грузия</p>
         <p>+995 (595) 96-73-98</p>
         <p>ilyaklimenko.93@yandex.ru</p> 
-</td>
-</tr>
-</table>     
-<hr>
-<h2>Навыки</h2>
-<ul>
-        <li>SQL, работа с СУБД</li> 
+
+        <h4>Социальные сети</h4>
+<a href="https://vk.com/desone"target="_blank">VK</a> |
+        <a href="https://t.me/neotmechaimenya"target="_blank">Telegram</a> |
+        <a href="https://www.instagram.com/aezakmi.wanted/"target="_blank">Instagram</a>
+    </div>
+    </div>
+
+    <div class="card bg-yellow">
+        <h2>Навыки</h2>
+            <ul>
+ <li>SQL, работа с СУБД</li> 
         <li>Нотации BPMN</li> 
         <li>Опыт работы с UML</li>
         <li>Jira, Trello</li>
@@ -37,52 +40,56 @@
         <li>Понимание жизненного цикла и процессов разработки ПО</li>
         <li>Составление чек-листов и алгоритмов для грамотной работы отдела</li>
         <li>Уверенное пользование MS Office (Word, Excel, OutLook, PowerPoint)</li>
-</ul>
-<hr>
+    </ul>
+</div>
+
+<div class="card bg-green">
 <h2>Опыт работы</h2>
-<table>
-<thead>
-        <tr>
-                <th>Компания</th>
-                <th>Должность</th>
-                <th>Год</th>
-        </tr>
-</thead>
-<tbody>
+<table class="table">
+</div>
 <tr>
 <td>Klever Label</td>
-<td>Технический менеджер</td>
-<td>2019-2022</td>
+<td class="temp">Технический менеджер</td>
+<td class="temp">2019 - 2022</td>
 </tr>
-</tbody>
 </table>
-<hr>
+</div>
+
+<div class="card bg-red">
 <h2>Высшее образование</h2>
-<p>Финансовый университет при Правительстве Российской Федерации, Москва</p> 
-<p>Специальность: Финансы и кредит</p> 
-<hr>
-<h2>Социальные сети</h2>
-<p> <a href="https://vk.com/desone"target="_blank">Vk</a> 
-        <a href="https://t.me/neotmechaimenya"target="_blank">Telegram</a> 
-        <a href="https://www.instagram.com/aezakmi.wanted/"target="_blank">Instagram</a>
-</p>
-<hr>
+Финансовый университет при Правительстве Российской Федерации, Москва
+<br>
+Специальность: Финансы и кредит</p> 
+</div>
+
+<div class="contact">
 <h2>Связаться со мной</h2> 
-<form action=""> 
+<form action="/"> 
+    <div class="row">
+    <div class="form-group">
         <label for="name:">Ваше имя:</label>
         <input type="text" id="name" 
         placeholder="Введите ваше имя">
-        <br>
-        <label for="email:">Ваш Email:</label>
+    </div>
+    <div class="form-group">
+        <label for="email:">Ваш email:</label>
         <input type="email" id="email" 
-        placeholder="Введите ваш Email">
-        <br>
+        placeholder="Введите ваш email">
+    </div>
+</div>
+    <div class="form-group">
         <label for="text">Ваше сообщение</label>
         <br>
         <textarea id="text"></textarea>
-        <br>
-        <input type="submit" value="Связаться">
+    </div>
+        <input class="btn" type="submit" 
+        value="Связаться">
 </form>
-<font>
+<div class="position">
+    <div class="box">
+</div>
+    </div>
+</div>
 </body>
 </html>
+
